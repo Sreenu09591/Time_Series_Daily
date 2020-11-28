@@ -21,5 +21,5 @@ Navigate to root directory and run "behave --no-capture -f allure_behave.formatt
 Above command will run the feature file and will display the results in the console output. It will also generate json allure reports in the reports directory.
 
 # To view test execution reports
-1.Navigate to allure-2.13.7\bin directory and run "allure serve <path to reports directory>"
+1.Navigate to allure-2.13.7\bin directory and run "allure serve 'path to reports directory'"
 
