@@ -1,17 +1,17 @@
 # Time_Series_Daily
 
-This project will run 5 test cases of Time_Series_Daily api's which is written using python behave BDD Framework.
+This project will run 5 test cases of Time_Series_Daily api's which is written using python behave BDD Framework.\n
 This repository contains, Test Cases file, Automation Code files,requirements.txt file, allure exe and reports folder
 
 # Setup and Execution
 
 ## Pre-Requisites
 
-Python shoule be available in your PC.
+Python shoule be available in your PC.\n
 Any of the editor to update/write new code.
 
 ## Follow below steps to setup this project
-1.Clone this repository to a required directory.
+1.Clone this repository to a required directory.\n
 2.Navigate to root directory and run "pip install -r requirements.txt" to install all required libraries.
 
 ## Executing test cases.
