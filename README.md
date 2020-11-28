@@ -1,7 +1,7 @@
 # Time_Series_Daily
 
 This project will run 5 test cases of Time_Series_Daily api's which is written using python behave BDD Framework.  
-This repository contains, Test Cases file, Automation Code files,requirements.txt file, allure exe and reports folder
+This repository contains Test Cases file, Automation Code files,requirements.txt file, allure exe and reports folder
 
 # Setup and Execution
 
