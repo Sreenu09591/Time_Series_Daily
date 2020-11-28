@@ -11,6 +11,6 @@ class common_utils:
         params={
             'function':'TIME_SERIES_DAILY',
             'symbol' : 'IBM',
-            'apikey' : '6ICDX7I7QDC4B3EI'
+            'apikey' : 'W2JTZ3CF2X8X4XW4'
         }
         return params
