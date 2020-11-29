@@ -1,0 +1,56 @@
+<testsuite name="daily_timeseries.Validate daily time series data" tests="5" errors="0" failures="0" skipped="0" time="6.102012" timestamp="2020-11-29T20:10:06.273245" hostname="Gautam"><testcase classname="daily_timeseries.Validate daily time series data" name="Validate daily time series data with required params" status="passed" time="1.43627"><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario: Validate daily time series data with required params
+    Given End point url and required params ... passed in 0.008s
+    When user sends get request ... passed in 1.428s
+    Then user should get the daily time series data with status code 200 ... passed in 0.000s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase><testcase classname="daily_timeseries.Validate daily time series data" name="Verify response contains values for open,high,low,close,volume keys for all the days" status="passed" time="1.36556"><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario: Verify response contains values for open,high,low,close,volume keys for all the days
+    Given End point url and required params ... passed in 0.000s
+    When user sends get request ... passed in 1.366s
+    Then verify response contains open,high,low,close,volume keys for all the days ... passed in 0.000s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase><testcase classname="daily_timeseries.Validate daily time series data" name="Verify user can't access data if any of the required parameter is missing -- @1.1 " status="passed" time="1.300181"><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario Outline: Verify user can't access data if any of the required parameter is missing -- @1.1 
+    Given End point url and required params ... passed in 0.000s
+    When user sends get request with missing required paramaeter "function" ... passed in 1.300s
+    Then User should get error message in the response ... passed in 0.000s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase><testcase classname="daily_timeseries.Validate daily time series data" name="Verify user can't access data if any of the required parameter is missing -- @1.2 " status="passed" time="0.992001"><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario Outline: Verify user can't access data if any of the required parameter is missing -- @1.2 
+    Given End point url and required params ... passed in 0.008s
+    When user sends get request with missing required paramaeter "symbol" ... passed in 0.984s
+    Then User should get error message in the response ... passed in 0.000s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase><testcase classname="daily_timeseries.Validate daily time series data" name="Verify user can't access data if any of the required parameter is missing -- @1.3 " status="passed" time="1.008"><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario Outline: Verify user can't access data if any of the required parameter is missing -- @1.3 
+    Given End point url and required params ... passed in 0.000s
+    When user sends get request with missing required paramaeter "apikey" ... passed in 1.008s
+    Then User should get error message in the response ... passed in 0.000s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase></testsuite>
