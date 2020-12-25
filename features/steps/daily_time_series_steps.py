@@ -29,7 +29,7 @@ def get_time_series_daily(context):
 
 @then(u'user should get the daily time series data with status code 200')
 def verify_get_time_series_daily_status(context):
-    assert len(context.response_json) > 0 and context.response.status_code == 201
+    assert len(context.response_json) > 0 and context.response.status_code == 200
 
 @then(u'verify response contains open,high,low,close,volume keys for all the days')
 def verify_get_time_series_daily_response(context):
