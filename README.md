@@ -22,7 +22,7 @@ Above command will run the feature file and will display the results in the cons
 
 # To view test execution reports
 1.Navigate to allure-2.13.7\bin directory and run "allure serve %path to reports directory%"
-
+tested by sreenivasulusuuda
 
 update by sreenu
 
