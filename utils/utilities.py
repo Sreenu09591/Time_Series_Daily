@@ -4,7 +4,7 @@ class common_utils:
 
     def get_url(self):
         config = configparser.ConfigParser()
-        config.read('utils/properties.ini'
+        config.read('utils/properties.ini')
         print("nothing")
         return config['URL']['endpoint_url']
 
