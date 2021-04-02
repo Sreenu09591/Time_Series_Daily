@@ -6,6 +6,7 @@ class common_utils:
         config = configparser.ConfigParser()
         config.read('utils/properties.ini')
         print("nothing")
+        print("branch 1")
         return config['URL']['endpoint_url']
 
     def get_req_params(self):
